@@ -1,0 +1,76 @@
+.property {
+  color: #ff0000;
+  font-weight: 700;
+  font-size: 18px;
+  display: flex;
+}
+.subCard-container {
+  display: flex;
+  padding: 20px 50px 20px 50px;
+}
+.visit {
+  color: white;
+  background-color: #ff0000;
+  border-radius: 47px;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 30px;
+  display: flex;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.information {
+  display: flex;
+}
+.tr {
+  background-color: #e4faff;
+  width: 330px;
+  height: 100px;
+  border-radius: 8px;
+  padding: 20px 20px;
+  position: relative;
+  margin-right: 20px;
+}
+.tr1 {
+  background-color: #dee1e2;
+  width: 330px;
+  height: 100px;
+  border-radius: 8px;
+  padding: 20px 20px;
+  position: relative;
+  margin-right: 20px;
+}
+.img1 {
+  position: absolute;
+  top: 20px;
+  left: 225px;
+}
+.img2 {
+  position: absolute;
+  top: 45px;
+  left: 270px;
+}
+.immmg3 {
+  height: 175px;
+  width: 430px;
+}
+@media screen and (max-width: 788px) {
+  .subCard-container {
+    display: flex;
+    /* flex-direction: column; */
+    /* line-height: 50px; */
+    margin-top: 150px;
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .visit {
+    color: white;
+    background-color: #ff0000;
+    border-radius: 47px;
+    border: none;
+    /* padding: 10px 20px; */
+    margin-top: 30px;
+    display: flex;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+}

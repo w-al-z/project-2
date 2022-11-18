@@ -1,0 +1,25 @@
+h3 {
+  display: flex;
+  justify-content: right;
+  color: #1e1e1e;
+  font-size: 18px;
+  margin: 0;
+  padding: 15px 70px 15px 0px;
+  background-color: #d9d9d9;
+  font-weight: 476;
+}
+@media screen and (max-width: 788px) {
+  h3 {
+    display: flex;
+    justify-content: flex-start;
+    padding: 15px 50px;
+  }
+}
+@media screen and (max-width: 425px) {
+  h3 {
+    display: flex;
+    justify-content: flex-start;
+    /* padding: 15px 50px; */
+    width: 650px;
+  }
+}

@@ -1,0 +1,13 @@
+.box--2 {
+  width: 1309px;
+  height: 465px;
+}
+box3 {
+  display: flex;
+}
+@media screen and (max-width: 788px) {
+  .box--2 {
+    width: 720px;
+    height: 200px;
+  }
+}
